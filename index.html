@@ -1,0 +1,487 @@
+<!-- CON EL SIGNO '!' + 'ENTER' TENEMOS LA ESTRUCTURA DE HTML-->
+<!-- LA PRIMERA LINEA DE LA ESTRUCTURA ESTABLECE EL TIPO ESTANDAR DEL DOC (HTML) -->
+<!DOCTYPE html>
+
+<!--INICIO DEL DOCUMENTO HTML-->
+<!-- LANG ES PARA CAMBIAR IDIOMA EN ESTE CASO PONEMOS 'ES' -->
+<html lang="es">  
+
+<!-- DATOS QUE LE PASAMOS AL NAVEGADOR CON INFORMACION DE NUESTRA PAGINA -->
+<head>
+    <!--  <TITLE> ES PARA PONER EL NOMBRE DE LA PAG-WEB EN PESTANIA -->
+    <title>Aprendiendo JS, CSS y HTML</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+
+    <meta name="descripcion" content="Este sitio Web es un resumen de como aprender HTML desde cero"> 
+
+    <!-- Ir a favicon.com  para poner una imagen de icono de pestania ver el video siguiente para entender mejor https://www.youtube.com/watch?v=1KwfE5NrKU0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=67&ab_channel=DorianDesings
+
+    En este video tambien podemos ver como hacer iconos por servidor
+    https://www.youtube.com/watch?v=thQ2GW9Gf-s&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=68&ab_channel=DorianDesings -->
+</head>
+
+<style>
+    picture{
+        max-width: 100%;
+    }
+
+    video{
+        max-width: 100%;
+    }
+</style>
+
+<!-- REPRESENTA EL CUERPO Y TODO EL CONTENIDO DE NUESTRA PAGINA WEB -->
+<body>
+    <h1><u>APRENDIENDO HTML</u></h1>
+    <!-- NAV -> AYUDA A IR A LOS ENLACES DIRECTO, ENCABEZADO ESTA EL ENLACE -->
+    <nav>
+        <ul>
+            <li><a href="#EJ-1">EJERCICIO 1</a></li>
+            <li><a href="#EJ-2">EJERCICIO 2</a></li>
+            <li><a href="#EJ-3">EJERCICIO 3</a></li>
+            <li><a href="#EJ-4">EJERCICIO 4</a></li>
+            <li><a href="#EJ-5">EJERCICIO 5</a></li>
+            <li><a href="#EJ-6">EJERCICIO 6</a></li>
+            <li><a href="#EJ-7">EJERCICIO 7</a></li>
+            <li><a href="#EJ-8">EJERCICIO 8</a></li>
+            <li><a href="#EJ-9">EJERCICIO 9</a></li>
+            <li><a href="#EJ-10">EJERCICIO 10</a></li>
+            <li><a href="#EJ-11">EJERCICIO 11</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="EJ-1">EJERCICIO 1</h1>
+                        <!-- TITULOS Y PARRAFOS -->
+    <!-- <H1>,<H2>,<H3> = EL TIPO DE LETRA QUE TENDRA UN ENCABEZADO -->
+    <h1>Spiderman</h1>
+    <h2>Sinopsis</h2>
+    <!-- <P> = ESCRIBIR UN PARRAFO -->
+    <!-- SI TE OLVIDAS VER VIDEO https://www.youtube.com/watch?v=a9iwELfRlqc&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=10&ab_channel=DorianDesings -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo repellat voluptatem cupiditate maiores minima quas, repellendus possimus, laborum nostrum laudantium molestias corrupti ipsa. Sapiente earum deleniti dolorum eligendi minus!</p>
+    
+    <h3>Comic</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quibusdam illo dolores nobis omnis ex maiores architecto dolor eius ullam maxime facilis minus odit explicabo asperiores quas, repudiandae fuga repellendus?</p>
+
+
+    <h1 id="EJ-2">EJERCICIO 2</h1>
+                        <!-- SECCION DE CONTENIDO -->
+    <!-- <HEADER> CABECERA DE LA PAGINA / MENU DE NAVEGACION, LOGO, RED SOCIALES -->
+    <!-- <MAIN> CONTENIDO PRINCIPAL DE LA PAG -->
+    <!-- <FOOTER> PIE DE PAGINA -->
+    <header>
+        INICIO
+        PELICULAS
+        COMICS
+    </header>
+    <main>
+        <h3>Comic 2</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quibusdam illo dolores nobis omnis ex maiores architecto dolor eius ullam maxime facilis minus odit explicabo asperiores quas, repudiandae fuga repellendus?</p>
+    </main>
+    <footer>
+        APRENDIENDO HTML 25 DIC 2021
+    </footer>
+
+
+    <h1 id="EJ-3">EJERCICIO 3</h1>
+                            <!-- COMANDO SECTION y ARTICLE -->
+    <header>
+        <h1>NOTICIAS NACIONALES</h1>
+    </header>
+<!-- SEGUIR LA ESTRUCTURA QUE ESTA A CONTINUCION PARA UN CORRECTO ARTICULO -->
+    <main>
+        <section>
+            <h2>Noticias del dia</h2>
+            <article>
+                <header><h3>Noticia 1</h3></header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia fugiat omnis illum beatae culpa, tempora nihil dolorum quia eos, perspiciatis nemo corporis. Ab debitis animi sunt id quidem maxime tempora.</p>
+                <footer>Esta noticia es de navidad</footer>
+            </article>
+            <!-- ES CORRECTO HACER UN ARTICULO COMO LA ESTRUCTURA DE ARRIBA -->
+            <article>
+                <h3>Noticia 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus animi hic soluta a adipisci voluptatibus rerum repellat numquam illum ipsa impedit id, blanditiis aspernatur repudiandae eos, odit illo! Non?</p>
+            </article>
+            <article>
+                <h3>Noticia 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat doloribus animi hic soluta a adipisci voluptatibus rerum repellat numquam illum ipsa impedit id, blanditiis aspernatur repudiandae eos, odit illo! Non?</p>
+            </article>
+        </section>
+    </main>                       
+
+    <h1 id="EJ-4">EJERCICIO 4</h1>
+                            <!-- ARTICLE ANIDA 1 SECTION -->
+    <main>
+        <article>
+            <h2>Navegador mas utilizados en 2020 </h2>
+            <section>
+                <h3>Noticia Chrome</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem cumque, doloribus nam dignissimos unde illo error beatae. Veniam obcaecati, deleniti eveniet animi enim nesciunt commodi optio tenetur dolores exercitationem perspiciatis.</p>
+                <footer>Creado por google</footer>
+            </section>
+            <section>
+                <h3>Firefox</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aut laborum impedit quis blanditiis saepe alias nemo eum quisquam, velit voluptate maxime neque natus magnam enim facilis a mollitia. Nobis.</p>
+                <footer>Verificar estructura en validator.w3 </footer>
+            </section>
+        </article>
+    </main>
+    <aside>La funcion de un aside es para colocar links, esta fuera de main</aside>   
+    <footer>25/12/2021</footer>  
+
+    <!-- 
+        COMANDOS PARA ESCRITURA
+        em -> emfasis
+        strong -> mas emfasis
+        br -> Forzar un salto de linea, solo cuando es necesario
+        wbr -> Salto de linea si hiciera falta 
+        time -> Se usa para representar un contenido de hora/fecha
+        i -> Italic = texto en cursiva
+        b -> bold = Negrilla
+        u -> underline = texto en sobrelinea
+     -->
+     <time><b>21:45</b></time>
+    <!-- Atributos: https://www.youtube.com/watch?v=kSMtCTQyga0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=22&ab_channel=DorianDesings -->
+
+    <h1 id="EJ-5">EJERCICIO 5</h1>
+                            <!-- ENLACES -->
+     <main>
+         <!-- Conocido tambien como links, su objetivo es conectar una pagina web con otra pagina web, con un recurso tanto interno como externo, o con otro sitio web
+        
+        * Tiene el atributo obligatorio HREF, donde le especificamos la ruta del recurso o sitio que queremos obtener COLOCAR 'A' EN EL EDITOR
+
+        * Tambien tiene el atributo TARGET, que configura como queremos visualizar el recurso o sitio que solicitamos
+        Enlaces en Rutas ver video:
+            https://www.youtube.com/watch?v=gB7WM0EQfM0&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=24&ab_channel=DorianDesings
+            -->
+         <h2>Home</h2>
+         <a href="Aprendiendo JavaScript.html">Aprendiendo_JS</a><br>
+
+         <!-- Rutas Absolutas -->
+         <!-- Debes colocar direccion http -->
+         <a href="https://www.floristeriafiorebuin.com/">Ir a Fiorebuin</a><br>
+        
+         <!-- BLANK ESTA CONDICION TE AYUDA ABRIR EN NUEVA PESTANIA -->
+         <a href="https://google.com" target="blank" >Ir a google</a><br>
+         
+         <!-- Este comando ayuda para cuando queremos que descargue 1 archivo -->
+         <a href="IMG/Mervin.jpg"download>DESCARGAR</a>
+     </main>
+
+
+     <h1 id="EJ-6">EJERCICIO 6</h1>
+                            <!-- LAS LISTAS DE DEFINICION-->
+    <!-- Las listas en HTML sirven para listar contenido. En funcion del tipo de contenido de nuestra lista tenemos 3 tipos de listas:
+        ul -> UNORDERED LIST: Se utilizan cuando el orden de los elementos no influye (lista de la compra)
+
+        ol -> ORDERED LIST: Se utilizan cuando el orden de los elementos es importante (top 10)
+    
+        dl -> DEFINITION LIST: Se utilizan para hacer una lista de definiciones (diccionario)
+
+        VIDEO DE LISTAS ANIDADAS Y ATRIBUTOS
+        https://www.youtube.com/watch?v=mzikJcaKCRQ&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=31&ab_channel=DorianDesings
+    -->
+
+    <h2>Lista de la compra</h2>
+    <ul>
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+        <li>Cafe</li>
+    </ul>
+
+    <h2>Orden de aprendizaje</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h2>Lenguajes para el desarrollo WEB</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language: Es un lenguaje de marcado que se usa para estructurar datos en una pagina web</dd>
+        
+        <dt>CSS</dt>
+        <dd>Cascade Style sheets: Es un lenguaje de disenio que se utiliza para dar estilos al HTML</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Es un lenguaje de programacion para dar interactivdad a un sitio web</dd>
+    </dl>
+    
+    <h1 id="EJ-7">EJERCICIO 7</h1>
+                         <!-- TABLAS -->
+                         
+    <h1>Tablas</h1>
+    <table>
+        <caption>HORARIO DE CLASE</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>L</th>
+                <th>M</th>
+                <th>X</th>
+                <th>J</th>
+                <th>V</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>19H00-22H00</td>
+                <td>CiberSeguridad</td>
+                <td>CiberSeguridad</td>
+                <td>CiberSeguridad</td>
+                <td>CiberSeguridad</td>
+                <td>CiberSeguridad</td>
+            </tr>
+            <tr>
+                <td>22H00-23H00</td>
+                <td>Viaje a Casa</td>
+                <td>Viaje a Casa</td>
+                <td>Viaje a Casa</td>
+                <td>Viaje a Casa</td>
+                <td>Viaje a Casa</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Es un pie de pagina <br> y esto es obcional</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1 id="EJ-8">EJERCICIO 8</h1>
+                            <!-- ETIQUETAS -->
+    <!-- 
+        addres -> Se usa para colocar direcciones
+        blockquote ->Se usa para citar documentos
+        pre -> Se utiliza para tener codigo preformateado (1 cancion)
+        div -> Se usa como division del documento
+     -->
+    <address>
+        Edmundo Carvajal y Alonso de Torres <br>
+        Edificio Foresta
+    </address>
+
+    <blockquote cite="https://www.youtube.com/watch?v=E-lldsgGn0c&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=38&ab_channel=DorianDesings">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui. Adipisci, eum possimus. Dicta, porro soluta quod odio possimus voluptatibus. Maxime sapiente eum sequi incidunt tempore itaque reprehenderit exercitationem nostrum.
+        </p>
+    </blockquote>
+    <pre>
+        I'm spinning 'round, my eyes are closed
+        We're going down, in vertigo
+        I'm spinning 'round, my eyes are closed
+        We're going down, in vertigo
+
+        <span>Vertigo</span> 
+
+        I'm spinning 'round, my eyes are closed
+        We're going down, in vertigo
+        I'm spinning 'round, my eyes are closed
+        We're going down, in vertigo
+
+        <span>Vertigo</span>
+    </pre>
+
+    <p>
+        <!-- Colocar el simbolo de copyright -->
+        <h1>Origen del Cosmos &copy;</h1>
+
+        Esta historia empezo hace muchas Lunas atras en un lugar que lo conocemos como el cosmos, donde existe alrededor de 177 nucleos (planetas), ahí empezo a surgir un tipo de vida creada a partir de una pequeña luz explosiva del cosmos, el cual lo conocemos como nuestro Dios, Mi nombre es Ziren, tengo 14 lunas de edad y pertenezco al origen del cosmos,  cuando tenia 3 lunas, mi padre nos conto la historia de nuestros ancestros.
+        <hr>
+        EL origen y nuestra civilización empezo hace 47000 lunas atras, con destellos de luz que nos dieron la vida y un mecanismo de inteligencia en nuestro cuerpos, en una forma de inteligencia todos empezaron aportar grandes proyectos y asi nace nuestra comunidad, solo que tenemos
+    </p> 
+
+    <span>INICIO A LA PROGRAMACION</span>
+    <h1 id="EJ-9">EJERCICIO 9 (Estrucutura basica para formulario)</h1>
+                            <!-- ESTRUCTURA BASICA DE UN FORMULARIO -->
+    <!-- form -> es la etiqueta que engloba nuestro formulario
+         label -> Sirve para escribir el nombre del campo a rellenar
+         input -> Srive para crea un campo que permitira al usuario interactuar
+         button -> Crea un boton que permitira enviar el formulario
+
+         https://www.youtube.com/watch?v=bHuOFfcgAws&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=43&ab_channel=DorianDesings
+    -->
+    
+    <form action="hola.html">
+        <label>NOMBRE</label>
+        <input>
+        <button>ENVIAR</button>
+
+        <label for="L_N">APELLIDO</label>
+        <input id="L_N">
+        <button>ENVIAR</button><br>
+
+        <!-- TIPOS DE INPUT -->
+
+        <h2>INPUT DE TIEMPO</h2>
+        <input type="date">
+        <input type="time"><br>
+        <input type="month"><br>
+        <!-- datetime-local este input no sirve en todos los navegadores -->
+        <input type="datetime-local"><br>
+        
+        <h2>INPUT DE DATOS DE USUARIO</h2>
+       <div>
+           <label>search
+                <input type="search">
+            </label>
+        </div>
+        <div>
+            <label>telefono
+                <input type="tel">
+            </label>
+        </div>
+        <div>
+            <label>email
+                <input type="email">
+            </label>
+        </div>
+        <div>    
+            <label>password
+                <input type="password">
+            </label>
+        </div>
+        <div>    
+            <label> url
+                <input type="url">
+            </label>
+        </div>
+
+        <h2>INPUT DE INTERACCION</h2>
+        <input type="color">
+        <input type="number">
+        <input type="range" step="5" min="0" max="20">
+        <input type="reset">
+        <input type="text">
+
+        <h2>INPUT TIPO SELECCION ELEMENTOS-LISTA DE OPCIONES</h2>
+        <u><h2>INPUT TIPO RADIO</h2></u>
+        <h3>Genero</h3>
+        <!-- 
+            name -> La instruccion 'gender' es importante para solo elegir 1 opcion
+            cheked -> Es un atributo que ayuda a tener una respuesta eljida, este atributo es opcional
+            value -> Es importante considerar este atributo para una base de datos     
+        -->
+        <label>Masculino
+            <input type="radio" name="gender" value="masculino">
+        </label>
+        <label>Femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>otro
+            <input type="radio" name="gender" value="desconocido" checked>
+        </label>
+
+        <u><h2>INPUT TIPO CHECKBOX</h2></u>
+        <h3>Deportes que te gustan</h3>
+        <label>
+            <input type="checkbox" name="deportes" value="masculino">>
+            Futbol
+        </label>
+        <label>
+            <input type="checkbox" name="deportes" value="masculino">>
+            Futbol Americano
+        </label>
+        <label>
+            <input type="checkbox" name="deportes" value="masculino">>
+            Basketball
+        </label>
+        <label>
+            <input type="checkbox" name="deportes" value="masculino">>
+            Tenis
+        </label>
+
+        <u><h2>DESPLEGABLE TIPO SELECT</h2></u>
+        <select name="Lenguajes">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="java">JAVA</option>
+        </select>
+
+        <u><h2>DESPLEGABLE TIPO SELECT ANIDADO</h2></u>
+        <select name="Comida">
+            <optgroup label="Coreana">
+                <option value="Ramen">Ramen</option>
+                <option value="Sushi">Sushi</option>
+                <option value="Kimchi">Kimchi</option>
+                <option value="Donkatsu">Donkatsu</option>
+            </optgroup>
+            <optgroup label="Mexicana">
+                <option value="Tacos">Tacos</option>
+                <option value="Burritos">Burritos</option>
+                <option value="Flautas">Flautas</option>
+            </optgroup> 
+            <optgroup label="Ecuatoriana">
+                <option value="Encebollado">Encebollado</option>
+                <option value="Cazuela">Cazuela</option>
+                <option value="Hornado">Hornado</option>          
+            </optgroup>
+        </select>
+
+        <u><h2>INPUT TIPO LISTA</h2></u>
+        <input type="list" list="coches">
+        <details id="coches">
+            <option value="kia"></option>
+            <option value="Mercedes"></option>
+            <option value="Ferrari"></option>
+            <option value="Audi"></option>
+            <option value="Ford"></option>
+            <option value="Hummer"></option>
+        </details>
+
+        <h1 id="EJ-10">EJERCICIO 10 (Comandos de Campo)</h1>
+                                <!-- ATRIBUTOS EN INPUTS -->
+    <!-- 
+        Placeholder -> Guia al usuario en los campos
+        Required -> Hace que un campo sea obligatorio
+        Readonly -> Hace que un campo sea de solo lectura
+        Disable -> Inavilita el campo 
+        min - max -> Establece min y max de un campo numerico
+        minlenght - maxlenght -> Establece el min y max de caracteres de un campo
+        Selected -> Equivale a un check
+        Autofocus -> Marca el primer campo deseado
+
+        Video Get y Post para enviar formularios
+        https://www.youtube.com/watch?v=DVU0ZWnmx1U&list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd&index=54&ab_channel=DorianDesings
+
+     -->
+        <input type="text" placeholder="Introduce tu nombre" required autofocus>
+        <input type="text" value="Introduce tu apellido" readonly>
+        <input type="text" value="Hola" disabled>
+        <select name="numbers">
+            <option value="one"> Frutilla </option>
+            <option value="Two" selected> Durazno </option>
+            <option value="one"> Naranja </option>
+        </select>
+        <input type="number" min="5" max="10">
+        <input type="text" minlength="3" maxlength="5" required>
+        <input type="submit">
+
+        <h1 id="EJ-11">EJERCICIO 11 (Embebido)</h1>
+                                <!-- EMBEBIDO -->
+        
+<!-- vectormagic.com: Es una herramienta que nos ayuda a que las imagenes tenga buena calidad en cuestion de vectores y bits
+    Para imagenes que no son vectoriales, podemos convertir imagenes tipo png, jpg, gif en el link: https://imagen.online-convert.com/es/convertir-a-webp
+
+    Videos de imagen verlos desde el 55 de Dorian Desings
+
+-->
+
+    <picture>
+        <source srcset="IMG\Mervin.jpg" media="(max-width:1200px
+        )"> 
+        <img src="/IMG/Mervin.jpg" alt="">
+    </picture>
+    
+    <figure>
+        <video src="/IMG/MOV_1843.mp4" controls autoplay muted loop></video>
+    </figure>
+
+    </form>
+</body>
+</html>

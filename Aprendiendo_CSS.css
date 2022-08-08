@@ -1,0 +1,199 @@
+/* Tenemos el selector "*{}" que en unos casos es importante usar pero hay que tomar en cuenta que tambien nos puede da;ar el dise;o ya que aplica a todo el documento OJO AL USAR SELECTOR GLOBAL*/
+
+body { /*Selector de cuerpo */
+    background: rgb(16, 140, 212);
+}
+
+h1 {  /*Selector de titulo h1 */
+    color: #632364;
+    background: #f0a49f;
+    margin: 60px;
+    text-align: center;
+    line-height: 15%;
+    word-spacing: 0.5rem;
+    background-position: 50% 0%;
+    background: linear-gradient(60deg, rgb(99, 9, 151), rgb(146, 117, 63), rgb(67, 134, 197), blue, rgb(177, 25, 101) );
+}
+
+/* ANIMACION */
+.animate{
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 20px;
+    height: 20px;
+    background: #343871;
+    border-radius: 50%;
+
+    animation-name: cambiarColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.circulo2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 30px;
+    height: 30px;
+    background: #343871;
+    border-radius: 50%;
+
+    animation: reducir 3s alternate infinite;
+}
+
+@keyframes cambiarColor {
+    from {
+        background-color: #632364;
+    }
+    to {
+        background-color: #282936;
+    }
+    
+    /* Translada o cambia la posicion del objeto*/
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    75% {
+        transform:translateX(100%) translateY(-100%);
+    }
+    100% {
+        transform: translate(0%, 0%); /* X , Y*/
+        background-color: #f0a49f;
+    }
+}
+
+@keyframes reducir {
+    from {
+        background-color: #632364;
+    }
+    to {
+        background-color: #282936;
+    }
+    /* Transforma la escala del objeto*/
+    0% {
+        transform: scale(0.5);
+    }
+    50% {
+        transform: scale(1.8);
+    }
+    100% {
+        transform: scale(0.2);
+    }
+}
+
+
+
+/* Animacion de uiverse.io */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    margin: 40px 100px;
+   }
+   
+    button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #343871;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   }
+  
+
+   /* ENTENDIENDO ESPACIO DE LA VENTANA DE TRABAJO */
+
+   .Cuad_1 {
+    height: 100px; /*Propiedad para especificar alto del contenido*/
+    width: 100px; /*Propiedad para especificar ancho del contenido*/
+    margin: 100px 100px 150px 200px; /*Propiedad margen se distribuye como las horas del reloj TOP LEFT BOTTOM RIGHT*/
+    background-color: #812556;
+   }
+
+   .Cuad_2 {
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+    background-color: #282e48;
+   }
+
